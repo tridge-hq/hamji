@@ -25,14 +25,16 @@ python manage.py runserver
 - Now that the server’s running, visit http://127.0.0.1:8000/polls/ with your Web browser
 
 ## TODO
-- [ ] Raise 404 if no matching question
-- [ ] Show only questions that are published and not yet closed
-- [ ] Enable to comment on question
-- [ ] Enable to comment on comment
-- [ ] Enable to suggest new choice for question
-- [ ] Limit the number of choices that can be suggested on one question
-- [ ] Extends `Question.closed_at` by one day, when new choice is suggested for that question
+1. [ ] Raise 404 if no matching question
+1. [ ] Show only questions that are published and not yet closed
+1. [ ] Enable to comment on question
+1. [ ] Enable to comment on comment
+1. [ ] Enable to suggest new choice for question
+1. [ ] Limit the number of choices that can be suggested on one question
+1. [ ] Extends `Question.closed_at` by one day, when new choice is suggested for that question
     - Requirements:
         - Use Django signal/receiver system
-- [ ] In `/polls/`, fetch only 5 questions through REST API
-- [ ] [Advanced] Handle race condition on handling “vote” actions
+1. [ ] In `/polls/`, fetch only 5 questions through REST API
+1. [ ] [Advanced] Handle race condition on handling “vote” actions
+1. [ ] [Advanced] Implement login system
+1. [ ] [Advanced] Implement system that a question creator can approve suggested choices
