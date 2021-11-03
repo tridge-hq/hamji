@@ -26,7 +26,7 @@ python manage.py runserver
 
 ## TODO
 - [ ] Raise 404 if no matching question
-- [ ] Show only polls that are published and not yet closed
+- [ ] Show only questions that are published and not yet closed
 - [ ] Enable to suggest new choice for question
 - [ ] Enable to comment on question
 - [ ] Enable to comment on comment
@@ -34,4 +34,5 @@ python manage.py runserver
 - [ ] Extends `Question.closed_at` by one day, when new choice is suggested for that question
     - Requirements:
         - Use Django signal/receiver system
+- [ ] In `/polls/`, fetch only 5 questions through REST API
 - [ ] [Advanced] Handle race condition on handling “vote” actions
