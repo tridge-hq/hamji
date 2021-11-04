@@ -38,3 +38,4 @@ python manage.py runserver
 1. [ ] [Advanced] Handle race condition on handling "vote" action
 1. [ ] [Advanced] Implement login system
 1. [ ] [Advanced] Implement system that a question creator can approve suggested choices
+1. [ ] [Advanced] Implement global search for questions and choices
