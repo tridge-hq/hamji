@@ -29,6 +29,7 @@ python manage.py runserver
 1. [ ] Show only questions that are published and not yet closed
 1. [ ] Enable to comment on question
 1. [ ] Enable to comment on comment
+1. [ ] Prevent a user voting more than once on a question
 1. [ ] Enable to suggest new choice for question
 1. [ ] Limit the number of choices that can be suggested on one question
 1. [ ] Extends `Question.closed_at` by one day, when new choice is suggested for that question
